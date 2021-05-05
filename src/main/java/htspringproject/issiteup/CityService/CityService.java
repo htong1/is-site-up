@@ -1,4 +1,4 @@
-package htspringproject.issiteup;
+package htspringproject.issiteup.CityService;
 import java.util.*;
 import org.springframework.stereotype.Service;
 
@@ -18,6 +18,7 @@ public class CityService implements ICityService {
         cities.add(new City(6L, "New York", 8550000));
         cities.add(new City(7L, "Edinburgh", 464000));
         cities.add(new City(8L, "Berlin", 3671000));
+        cities.add(new City(9L, "Overworld", 126000000));
 
         return cities;
     }

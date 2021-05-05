@@ -1,4 +1,4 @@
-package htspringproject.issiteup;
+package htspringproject.issiteup.controllers;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
